@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Desmos 图形计算器</title>
+        <title>Desmos</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="./src/css/style.css" type="text/css" />
     </head>
@@ -17,9 +17,9 @@
     <script src="./src/js/calculator.js"></script>
 
 
-<script>
+    <script>
         var elt = document.getElementById('calculator');
-        var calculator = Desmos.GraphingCalculator(elt, {language: 'zh-CN'});
+        var calculator = Desmos.GraphingCalculator(elt);
         calculator.setExpression({id:'graph1', latex:'y= x^2'});
     </script>
     <script src="./renderer.js"></script>

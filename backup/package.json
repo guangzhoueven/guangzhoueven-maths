@@ -1,7 +1,7 @@
 {
   "name": "desmos",
   "version": "1.0.0",
-  "description": "Desmos 图形计算器桌面版",
+  "description": "desmos offline for linux",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
